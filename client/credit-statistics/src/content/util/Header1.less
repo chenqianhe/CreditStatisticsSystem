@@ -1,0 +1,310 @@
+#header-group {
+  user-select: none;
+  width: 100%;
+  height: 100%;
+  //height: 900/979*100%;
+  //height: 900px;
+  //display: inline;
+}
+
+#header-title {
+  position: absolute;
+  left: 6.88%;
+  right: 76.56%;
+  top: 3.33%;
+  bottom: 91.33%;
+
+  font-family: STZhongsong, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24/1920*100vw;
+  line-height: 28/900*100vh;
+
+  display: flex;
+  align-items: center;
+
+  color: #1D68C1;
+  //my-attribute
+  user-select: none;
+}
+
+#search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  position: absolute;
+  width: 373/1920*100%;
+  height: 40/900*100%;
+  left: 468/1920*100%;
+  top: 34/900*100%;
+
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 4/900*100vh 4/1920*100vw rgba(0, 0, 0, 0.25);
+  border-radius: 35/1920*100vw;
+
+  //my-attribute
+  user-select: none;
+}
+
+#search-input {
+  position: absolute;
+
+  padding: 0 0;
+  font-family: STFangsong, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24/1920*100vw;
+  line-height: 18/900*100vh;
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  //my-attribute
+  left: 5%;
+  width: 85%;
+  height: 100%;
+
+  background: none;
+  border: none;
+  outline: none;
+
+  ::placeholder {
+    color: gray;
+  }
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  //padding: 16px 0;
+
+  position: absolute;
+  left: 48%;
+  right: 26.25%;
+  top: 3.33%;
+  bottom: 91.33%;
+
+  flex: none;
+  flex-grow: 0;
+  margin: 0 0;
+}
+
+.menu-item {
+  font-family: STZhongsong, serif;
+  font-style: normal;
+  font-weight: normal;
+
+  font-size: 24/1920*100vw;
+  line-height: 28/900*100vh;
+
+  color: #333333;
+}
+
+#required {
+  cursor: pointer;
+  color: #1D68C1;
+  order: 0;
+}
+
+#major {
+  cursor: pointer;
+  color: #333333;
+  order: 1;
+}
+
+#selective {
+  cursor: pointer;
+  color: #333333;
+
+  order: 2;
+}
+
+#outclass {
+  cursor: pointer;
+  color: #333333;
+  order: 3;
+}
+
+#mine {
+  cursor: pointer;
+
+  //position: absolute;
+  //width: 48px;
+  //height: 28px;
+  //left: 384px;
+  //top: 10px;
+
+  color: #333333;
+
+  order: 4;
+}
+
+#download {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  left: 76.25%;
+  right: 11.88%;
+  top: 3.33%;
+  bottom: 91.33%;
+
+  font-family: STZhongsong, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24/1920*100vw;
+  line-height: 28/900*100vh;
+  color: #318AF3;
+
+  border: 1/900*100vh solid #318AF3;
+  box-sizing: border-box;
+  border-radius: 8/1920*100vw;
+}
+
+#download-button {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  //
+  //flex: none;
+  //order: 0;
+  //flex-grow: 0;
+  //margin: 0;
+  //
+  //background: none;
+  //border: none;
+  //cursor: pointer;
+}
+
+#profile {
+  position: absolute;
+  left: 90.62%;
+  right: 6.88%;
+  top: 3.33%;
+  bottom: 91.33%;
+
+  cursor: pointer;
+}
+
+#profile-name {
+  position: absolute;
+  left: 12.5%;
+  right: 12.5%;
+  top: 27.08%;
+  bottom: 27.08%;
+
+  font-family: STZhongsong, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18/1920*100vw;
+  line-height: 22/900*100vh;
+  color: #FFFFFF;
+  //my-attribute
+  text-align: center;
+}
+
+#profile-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#profile-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  z-index: 10;
+  position: absolute;
+  width: 226/1920*100%;
+  height: 236/900*100%;
+  left: 1598/1920*100%;
+  top: 96/900*100%;
+
+  background: #FFFFFF;
+  box-shadow: 0 4/900*100vh 10/1920*100vw rgba(0, 0, 0, 0.25);
+  border-radius: 8/1920*100vw;
+}
+
+#profile-window-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 0;
+
+  position: absolute;
+  width: 128/226*100%;
+  height: 64/236*100%;
+  left: 36/226*100%;
+  top: 36/236*100%;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#info-name {
+  font-family: STZhongsong, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24/1920*100vw;
+  line-height: 28/900*100vh;
+
+  flex: none;
+  order: 1;
+}
+
+#info-number {
+  font-family: STZhongsong, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20/1920*100vw;
+  line-height: 24/900*100vh;
+
+  flex: none;
+  order: 2;
+}
+
+#profile-window-change {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+
+  position: absolute;
+  width: 154/226*100%;
+  height: 26/236*100%;
+  left: 36/226*100%;
+  top: 124/236*100%;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#profile-window-logout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+
+  position: absolute;
+  width: 114/226*100%;
+  height: 26/236*100%;
+  left: 36/226*100%;
+  top: 154/236*100%;
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 24/1920*100vw 0;
+}

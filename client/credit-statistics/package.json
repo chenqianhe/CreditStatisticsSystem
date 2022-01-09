@@ -1,0 +1,36 @@
+{
+  "name": "credit-statistics",
+  "version": "2.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenqianhe/CreditStatisticsSystem"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "http-proxy-middleware": "^2.0.1",
+    "js-md5": "^0.7.3",
+    "js-sha512": "^0.8.0",
+    "md5": "^2.3.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react": "^1.0.0",
+    "typescript": "^4.3.2",
+    "@types/js-md5": "^0.4.3",
+    "@types/js-sha512": "^0.8.0",
+    "node-less-chokidar": "^0.4.1",
+    "npm-run-all": "^4.1.5",
+    "vite": "^2.6.4"
+  }
+}
